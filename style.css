@@ -1,0 +1,47 @@
+body {
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: cursive;
+  color: #824c96;
+}
+
+section {
+  text-align: center;
+  margin: 10px 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #c7e1f3;
+  color: #824c96;
+}
+
+input {
+  border: 2px solid red;
+}
+
+a {
+  text-decoration: none;
+}
+
+.item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  margin: 10px;
+  gap: 20px;
+}
+
+.delItem {
+  background-color: rgb(255, 127, 187);
+}
+
+.done {
+  text-decoration: line-through;
+}
